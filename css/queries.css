@@ -1,0 +1,126 @@
+/* ************************************ */
+/* BELOW 950PX Tablets */
+/* ************************************ */
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .box-1 {
+    gap: 15rem;
+  }
+  .list-items {
+    gap: 1rem;
+  }
+}
+
+/* ************************************ */
+/* BELOW 602PX Tablets */
+/* ************************************ */
+
+@media (max-width: 38em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* ************************************ */
+/* BELOW 700PX Tablets */
+/* ************************************ */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 43.75%;
+  }
+  .box-1 {
+    gap: 9rem;
+  }
+  .list-items {
+    gap: 0.8rem;
+  }
+  .testimonials-col {
+    padding: 2rem 2rem;
+  }
+}
+/* ************************************ */
+/* BELOW 426PX Large Phones */
+/* ************************************ */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 62.5%;
+  }
+  .list-items {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .list-translate {
+    transform: none;
+  }
+  .list-translate-2 {
+    transform: none;
+  }
+  .translateY {
+    transform: none;
+  }
+  .translateY-2 {
+    transform: none;
+  }
+  .box-1 {
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 8rem 6.4rem 2.4rem 6.4rem;
+  }
+  .box-2 {
+    grid-template-columns: 1fr;
+    padding: 2.4rem 6.4rem 8rem 6.4rem;
+  }
+  .testimonials-col {
+    padding: 4rem;
+  }
+}
+/* ************************************ */
+/* BELOW 426PX Large Phones */
+/* ************************************ */
+
+@media (max-width: 32em) {
+  html {
+    font-size: 62.5%;
+  }
+  .box-1 {
+    padding: 8rem 2.6rem 2.4rem 2.6rem;
+  }
+  .box-2 {
+    padding: 2.4rem 2.6rem 8rem 2.6rem;
+  }
+  .list-items {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .ratings-list {
+    width: 100%;
+  }
+  .testimonials-col {
+    padding: 3rem 5rem;
+  }
+}
+/* ************************************ */
+/* BELOW 376PX Medium Phones */
+/* ************************************ */
+
+@media (max-width: 24em) {
+  .list-items {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .box-1 {
+    padding: 8rem 4rem 2.4rem 4rem;
+  }
+  .box-2 {
+    padding: 2.4rem 4rem 8rem 4rem;
+  }
+  .testimonials-col {
+    padding: 3rem 3.6rem;
+  }
+}

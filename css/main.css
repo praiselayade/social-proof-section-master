@@ -1,0 +1,112 @@
+/* ************************************ */
+/* HELPER CLASSES */
+/* ************************************ */
+
+.list-translate {
+  position: absolute;
+  left: 0;
+  transform: translateX(-20%);
+}
+.list-translate-2 {
+  position: absolute;
+  left: 0;
+  transform: translateX(-10%);
+}
+.translateY {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(10%);
+}
+.translateY-2 {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(20%);
+}
+
+/* ************************************ */
+/*MAIN CLASSES */
+/* ************************************ */
+
+.section-main {
+  background: url("../images/bg-pattern-top-desktop.svg") top left,
+    url("../images/bg-pattern-bottom-desktop.svg") bottom right;
+  background-size: 30% 30%;
+  background-repeat: no-repeat no-repeat;
+}
+.box-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20.5rem;
+  align-items: center;
+  padding: 8rem 4.8rem 0 4.8rem;
+}
+.products-heading {
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #502050;
+}
+.products-text {
+  color: #937b92;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ratings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 1.2rem;
+  border-radius: 5px;
+  background-color: #f7f2f7;
+  position: relative;
+}
+.list-icon {
+  height: 1.2rem;
+}
+.list-text {
+  color: #502050;
+  font-weight: 700;
+}
+
+.box-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 4.6rem 4.8rem 8rem 4.8rem;
+}
+
+.testimonials-col {
+  padding: 3rem 1.5rem;
+  color: #ffffff;
+  background-color: #502050;
+  border-radius: 5px;
+  position: relative;
+}
+
+.testimonials-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.testimonials-img {
+  width: 4rem;
+  border-radius: 50%;
+}
+.testimonials-name {
+  font-weight: 500;
+}
+.testimonials-buyer {
+  color: #ee68a4;
+  font-size: 1.5rem;
+}

@@ -50,6 +50,12 @@
   html {
     font-size: 62.5%;
   }
+  .section-main {
+    background: url("../images/bg-pattern-top-mobile.svg") top left,
+      url("../images/bg-pattern-bottom-mobile.svg") bottom right;
+    background-size: 30% 30%;
+    background-repeat: no-repeat no-repeat;
+  }
   .list-items {
     flex-direction: column;
     gap: 1.2rem;
